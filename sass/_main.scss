@@ -2,8 +2,8 @@
     background-image: url('../images/showcase.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 88vh;
+    background-position: top top;
+    height: 480px;
     margin-bottom: 12px;
     padding: 12px;
     border-radius: 12px;
@@ -29,6 +29,9 @@
     border-radius: 12px;
 }
 @media (min-width: 800px) {
+    .showcase {
+        height: 780px;
+    }
     .about-flex {
         display: flex;
         gap: 24px;
