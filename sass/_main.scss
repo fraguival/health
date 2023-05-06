@@ -1,0 +1,114 @@
+.showcase {
+    background-image: url('../images/showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 88vh;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+    .showcase__content {
+        display: inline-block;
+        width: 50%;
+        .showcase__title, .showcase__text {
+            background-color: rgba(0, 0, 0, .8);
+            color: #f2921d;
+            padding: 12px;
+            border-radius: 12px;
+        }
+    }
+}
+.about {
+    background-color: #f2921d;
+    color: #0a4d64;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding: 12px;
+    padding-top: 24px;
+    border-radius: 12px;
+    border-radius: 12px;
+}
+@media (min-width: 800px) {
+    .about-flex {
+        display: flex;
+        gap: 24px;
+    }
+    .about-flex-image {
+        flex-basis: 49%;
+    }
+    .about-flex-description {
+        flex-basis: 49%;
+        line-height: 4;
+    }
+}
+.services {
+    background-color: #0a4d64;
+    color: #f2921d;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.services {
+    background-color: #0a4d64;
+}
+.services__title {
+    margin-bottom: 48px;
+    text-align: center;
+}
+@media (min-width: 800px) {
+    .services-flex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .services-flexbox img {
+        width: 70%;
+    }
+}
+.contact {
+    background-color: #f2921d;
+    color: #0a4d64;
+    font-weight: bold;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
+.contact__title {
+    text-align: center;
+}
+.form {
+    background-color: #0a4d64;
+    width: 90%;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 12px;
+}
+.form__tag {
+    display: block;
+    color: #f2921d;
+    margin-bottom: 12px;
+}
+.form__enter {
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
+.form__textarea {
+    height: 200px;
+    resize: none;
+}
+.form__right {
+    display: flex;
+    justify-content: flex-end;
+}
+@media (min-width: 600px) {
+    .form {
+        width: 60%;
+    }
+}
+@media (min-width: 800px) {
+    .form {
+        width: 40%;
+    }
+}
