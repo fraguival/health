@@ -121,7 +121,7 @@ img {
   background-image: url("../images/showcase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top top;
+  background-position: center top;
   height: 480px;
   margin-bottom: 12px;
   padding: 12px;
@@ -179,6 +179,15 @@ img {
 
 .services__title {
   margin-bottom: 48px;
+  text-align: center;
+}
+
+.services__image {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.flexbox__title {
   text-align: center;
 }
 
